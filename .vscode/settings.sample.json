@@ -1,0 +1,11 @@
+{
+    "credential-flow.settings": {
+            "tenantId": "xxx",
+            "apiClientId": "xxx",
+            "apiClientSecret": "xxx",
+            "password": "xxx",
+            "SubjectName": "xxx",
+            "scope": "xxx",
+            "scope_default": "https://management.azure.com/.default"
+        }
+}
