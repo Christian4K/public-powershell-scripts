@@ -5,7 +5,7 @@ function JWTTokenRetrieval {
         [Parameter(Mandatory = $true)][String]$clientId,
         [Parameter(Mandatory = $true)][String]$tenantId,
         [Parameter(Mandatory = $true)][int]$jwtValidityInSeconds,
-        [Parameter(Mandatory = $false)][String]$scope = 'api://62e10ebb-ec3f-4b0e-bf0f-82df9e5dcfc4'
+        [Parameter(Mandatory = $false)][String]$scope = 'https://management.azure.com/.default'
     )
 
     ### JWT Headers ###
